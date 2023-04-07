@@ -1,1 +1,121 @@
 /* CSS stillerinizi buraya girin */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.caption {
+  height: 100px;
+  background-color: rgb(39, 69, 162);
+  width: 900px;
+}
+.giris {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.name {
+  font-size: 25px;
+}
+.menu {
+  display: flex;
+}
+.menu_link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px;
+}
+.menu_link:hover {
+  background-color: black;
+  color: white;
+}
+.project {
+  width: 900px;
+  background-image: url("../resimler/arkaplan.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.content {
+  padding: 10px;
+}
+.container {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+.orta {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.first_button {
+  margin-top: 20px;
+  padding: 5px;
+  background-color: transparent;
+}
+.button_project {
+  text-decoration: none;
+  color: black;
+}
+.ortalama {
+  width: 900px;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.image_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-block-start: 30px;
+}
+.image_item {
+  display: inline-block;
+  margin: auto;
+}
+.image_item p {
+  margin-top: 10px;
+  text-align: center;
+}
+.img {
+  width: 250px;
+  height: 200px;
+}
+.end {
+  width: 900px;
+  height: 100px;
+  background-color: rgb(39, 69, 162);
+  display: flex;
+  justify-content: center;
+}
+.second_button {
+  margin-top: 35px;
+}
+.second_button button {
+  padding: 10px;
+}
